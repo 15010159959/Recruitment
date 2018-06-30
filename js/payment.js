@@ -28,7 +28,7 @@ neb.setRequest(new nebulas.HttpRequest("https://mainnet.nebulas.io"));
 
 $(getUserAddress);
 
-$("#confirm").click(function () {
+$("#submit").click(function () {
     var to = dappAddress;
     var value = "1";    //NAS
     var callFunction = "newOrder";
