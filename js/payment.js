@@ -16,7 +16,7 @@ var serialNumber;
 var callbackUrl = NebPay.config.testnetUrl;
 var intervalQuery;
 
-var dappAddress = "n1voeKCimiXGXWLzMRmJPMXmNSKp9HPwRe6";
+var dappAddress = "n1tmsJaHeEns93Nzni1oHTcnCFczh6edeLL";
 
 var userAddrerss = ""
 
