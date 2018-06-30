@@ -30,7 +30,7 @@ $(getUserAddress);
 
 $("#submit").click(function () {
     var to = dappAddress;
-    var value = "1";    //NAS
+    var value = "0.0001";    //NAS
     var callFunction = "newOrder";
     var callArgsObj = {
         name : $("#name").val(),
