@@ -36,7 +36,7 @@ $("#submit").click(function () {
         name : $("#name").val(),
         phone : $("#phone").val(),
         email : $("#email").val(),
-        msg: $("msg").val(),
+        msg: $("#msg").val(),
     }
     var callArgs = JSON.stringify([JSON.stringify(callArgsObj)]);
     serialNumber = nebPay.call(to, value, callFunction, callArgs, {
